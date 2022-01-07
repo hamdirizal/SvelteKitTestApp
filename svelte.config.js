@@ -9,12 +9,16 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		prerender: {
+			entries: ['*','/page1']
+		},
 		adapter: adapterStatic({
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
 			fallback: null
 		}),
+        ssr: true,
 		router: false,
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'

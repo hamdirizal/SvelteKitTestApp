@@ -1,17 +1,16 @@
 <script context="module">
-export async function load({ url, params, status, fetch }) {
-	return {
-		props: {
-			url: url,
-			params: params,
-		},
+export async function load({ url, params, status, fetch }) {	
+	const res = await fetch("https://api.shelfgenie.io/website-settings")
+	if(res && res.ok){
+		const resData = await res.json()
+		return {props: {websiteSettings: resData } };
 	}
+
+	return {props: {websiteSettings: null } };
 }
 </script>
 <script>
-	export let url
-	export let params
-	console.log('url',url)
-	console.log('params',params)
+	export let websiteSettings
+	console.log('websiteSettings',websiteSettings)
 </script>
 <h1>Page 1</h1>
