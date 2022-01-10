@@ -2,7 +2,7 @@
 	/**
   * @type {import('@sveltejs/kit').Load}
   */
-	export async function load({ page, error, status, fetch }) {
+	export async function load({ page, error, status }) {
 
 		const res: Response = await fetch("https://api.shelfgenie.io/website-settings")
 
@@ -21,4 +21,4 @@
 </script>
 
 <h1>Welcome to Page Two</h1>
-<p>This is a test page version 1</p>
+<p>This is a test page version 4</p>
