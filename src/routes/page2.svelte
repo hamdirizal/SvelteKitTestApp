@@ -21,4 +21,4 @@
 </script>
 
 <h1>Welcome to Page Two</h1>
-<p>This is a test page version 1</p>
+<p>This is a test page version 7. Using svelte fetch.</p>
