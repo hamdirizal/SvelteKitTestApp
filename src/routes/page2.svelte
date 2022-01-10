@@ -21,4 +21,4 @@
 </script>
 
 <h1>Welcome to Page Two</h1>
-<p>This is a test page version 6. Copy pasted packagejson from old version before node-fetch.</p>
+<p>This is a test page version 7. Change devDependencies to dependencies.</p>
