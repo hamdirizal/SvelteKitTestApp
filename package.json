@@ -12,9 +12,6 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@sveltejs/adapter-static": "next",
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "1.0.0-next.174",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
     "eslint": "^7.32.0",
@@ -26,6 +23,9 @@
     "typescript": "^4.4.3"
   },
   "devDependencies": {
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "1.0.0-next.174",
     "@sveltejs/adapter-node": "1.0.0-next.55"
   },
   "engines": {
