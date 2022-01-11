@@ -21,4 +21,4 @@
 </script>
 
 <h1>Welcome to Page Two</h1>
-<p>This is a test page version 8. Moved adapter node to the dev dependencies.</p>
+<p>This is a test page version 9. Moved all dependencies to dev dependencies.</p>
