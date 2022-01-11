@@ -20,11 +20,11 @@
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",
     "tslib": "^2.3.1",
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/adapter-auto": "next",
     "typescript": "^4.4.3"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "next",
-    "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "1.0.0-next.174",
     "@sveltejs/adapter-node": "1.0.0-next.55"
   },
